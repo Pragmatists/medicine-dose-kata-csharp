@@ -41,11 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DoseController.cs" />
-    <Compile Include="DoseUnsuccessfulException.cs" />
-    <Compile Include="IAlertService.cs" />
-    <Compile Include="IHealthMonitor.cs" />
-    <Compile Include="IMedicinePump.cs" />
-    <Compile Include="Medicine.cs" />
+    <Compile Include="dependencies\DoseUnsuccessfulException.cs" />
+    <Compile Include="dependencies\IAlertService.cs" />
+    <Compile Include="dependencies\IHealthMonitor.cs" />
+    <Compile Include="dependencies\IMedicinePump.cs" />
+    <Compile Include="dependencies\Medicine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

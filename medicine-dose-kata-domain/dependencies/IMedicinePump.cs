@@ -1,4 +1,4 @@
-﻿namespace medicine_dose_kata_domain
+﻿namespace medicine_dose_kata_domain.dependencies
 {
     public interface IMedicinePump
     {
